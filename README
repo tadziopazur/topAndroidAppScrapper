@@ -1,0 +1,12 @@
+This is a tool to scrap android application popularity off androidrank portal.
+
+1. 
+
+2. Prerequisites:
+2.1. Ubuntu packages:
+nodejs npm git
+
+2.2. npm modules
+https domjs 
+
+
