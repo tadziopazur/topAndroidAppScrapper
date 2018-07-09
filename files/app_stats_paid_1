@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="google-site-verification" content="Qg6JHRBOMeFFRtNyuy2hHkDoFLidfGsZgl0JWBAPvv0">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="/css/all-libs.min.css?time=2">
+  <script defer type="text/javascript" src="/js/all-libs.min.js?time=2"></script>
+  <meta name="language" content="en"/>   
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript">   
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-28528455-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+  
+
+  <title>Android application ranklist  - All applications (paid) </title>
+  <meta name="Description" content="Androidrank statistics. Complete statistics and category lists of android applications. " >
+  <meta name="Keywords" content="android, rank, statistics, ranking, rating, list, graph, chart, memory, history" >
+
+
+</head>
+<body>
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/sk_SK/sdk.js#xfbml=1&version=v2.12&appId=351062118361627&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div id="body-content" class="container">
+
+<!--  <div id="header-content"> -->
+  <div id="header" class="row">
+    <div class="col-md-3">
+    <div class="row">
+     <div class="col-md-12">  
+        <a href="/">
+          <div style="text-align:center; float:left;">          
+            <div style="font-size: 22px;padding-top:14px; line-height:22px; font-weight:bold; text-transform: uppercase; font-family: times;">
+              <span style="color:#5f812a;">android</span><span style="color:#001144;">rank</span>
+            </div>
+           <div style="margin:0px; padding:0px; line-height:12px;">
+             <span style="font-size:12px; color:#001144; ">open android market data since 2011</span>
+           </div>      
+          </div>
+        </a>
+     </div>
+    </div>
+    </div>  
+   
+  <div class="col-md-7">
+  <div id="topadd">
+    
+  
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-7014871535532916"
+     data-ad-slot="4642830647"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>  
+          
+    
+  </div>
+  </div>
+
+  <div class="col-md-2" style="padding-top:5px;padding-bottom:5px;">
+  <div class="ui-widget" id="searchwidget" >
+	  <label for="appsearch"><b><small>search</small></b></label>
+    <input id="appsearch" style="width:100%">
+  </div>
+  </div>
+
+
+  
+    
+  
+  </div>
+
+<div id="main" class="row"> 
+  <div id="content" class="col-md-10 col-md-push-2">
+    
+  <div style="float:right;margin:5px;">    
+    <span class="menu"><a href="/categorystats?category=&amp;price=paid&amp;hl=en">Stats</a></span>
+  </div>
+  <div style="float:right;margin:5px;">
+    <span class="menu_selected"><a href="/listcategory?category=&amp;price=paid&amp;hl=en">Ranklist</a></span>
+  </div>      
+<h1 style="margin:0;">All applications (paid)</h1>
+  <p class="explaintext">
+     
+      Android rating stats of android apps. 
+      
+    The table below displays ratings count, downloads, rating growth and average ratings. The rating count and rating value may not directly influence a real app usage. Apps which achieved 5,000,000 installs or 10,000 ratings are listed below.
+  </p>
+
+    <small>
+    1 - 20 of 455
+    
+      |    
+      
+        &lt;&lt; First
+      
+    
+      |    
+      
+        &lt; Previous
+      
+    
+      |    
+      
+        <a href="listcategory?category=&amp;start=21&amp;sort=0&amp;price=paid&amp;hl=en">Next &gt;</a> 
+      
+    
+      |    
+      
+        <a href="listcategory?category=&amp;start=441&amp;sort=0&amp;price=paid&amp;hl=en">Last &gt;&gt;</a> 
+      
+    
+    </small>    
+    <table style="width:100%" id="ranklist" class="table">
+      <tr>
+      <th style="text-align:center;">rank</th>
+      <th style="text-align:center;">Title</th>
+      <th style="text-align:center;">Market icon</th>            
+      <th title="Total number of ratings"><a href="/listcategory?category=&amp;sort=0&amp;price=paid&amp;hl=en">&#8595;Total ratings</a></th>
+      <th title="Installs"><a href="/listcategory?category=&amp;sort=4&amp;price=paid">Installs</a></th>
+      <th title="Average rating"><a href="/listcategory?category=&amp;sort=1&amp;price=paid">Average rating</a></th>
+      <th title="Percentage of ratings achieved in last 30 days."><a href="/listcategory?category=&amp;sort=2&amp;price=paid&amp;hl=en">Growth (30 days)</a></th>
+      <th title="Percentage of ratings achieved in last 60 days."><a href="/listcategory?category=&amp;sort=3&amp;price=paid&amp;hl=en">Growth (60 days)</a></th>
+      <th >Price</th>
+    </tr>
+    
+      <tr class="odd">
+      <td>1.</td>      
+      <td style="text-align:left;">
+        
+        <a href="/application/minecraft/com.mojang.minecraftpe?hl=en">Minecraft</a> 
+        
+      </td>
+      <td class="logo"><img width="20" height="20" onerror='this.style.display = "none"' src="https://lh3.googleusercontent.com/VSwHQjcAttxsLE47RuS4PqpC4LT7lCoSjE7Hx5AW_yCxtDvcnsHHvm5CTuL5BPN-uRTP=w20" alt="Minecraft"></td>      
+      <td>2,329,557</td>
+      <td>10 M</td>      
+      <td><font color="#3c7914">4.50</font></td>      
+      <td>1.4%</td>      
+      <td>2.4%</td>      
+      <td><small>$6.99</small></td>            
+    </tr>
+    
+      <tr class="even">
+      <td>2.</td>      
+      <td style="text-align:left;">
+        
+        <a href="/application/geometry_dash/com.robtopx.geometryjump?hl=en">Geometry Dash</a> 
+        
+      </td>
+      <td class="logo"><img width="20" height="20" onerror='this.style.display = "none"' src="https://lh5.ggpht.com/gSJ1oQ4a5pxvNHEktd21Gh36QbtZMMx5vqFZfe47VDs1fzCEeMCyThqOfg3DsTisYCo=w20" alt="Geometry Dash"></td>      
+      <td>627,965</td>
+      <td>1 M</td>      
+      <td><font color="#268e14">4.76</font></td>      
+      <td>0.0%</td>      
+      <td>0.9%</td>      
+      <td><small>$1.99</small></td>            
+    </tr>
+    
+      <tr class="odd">
+      <td>3.</td>      
+      <td style="text-align:left;">
+        
+        <a href="/application/grand_theft_auto_san_andreas/com.rockstargames.gtasa?hl=en">Grand Theft Auto: San Andreas</a> 
+        
+      </td>
+      <td class="logo"><img width="20" height="20" onerror='this.style.display = "none"' src="https://lh3.googleusercontent.com/XRlCpj22PFJuFK43QcE3u5RxmoNUed7YO_zG-6F1PCqjrBIIURbTBDvTgLVVIk5pNeY=w20" alt="Grand Theft Auto: San Andreas"></td>      
+      <td>341,583</td>
+      <td>1 M</td>      
+      <td><font color="#486e14">4.37</font></td>      
+      <td>1.8%</td>      
+      <td>2.8%</td>      
+      <td><small>$6.99</small></td>            
+    </tr>
+    
+      <tr class="even">
+      <td>4.</td>      
+      <td style="text-align:left;">
+        
+        <a href="/application/nova_launcher_prime/com.teslacoilsw.launcher.prime?hl=en">Nova Launcher Prime</a> 
+        
+      </td>
+      <td class="logo"><img width="20" height="20" onerror='this.style.display = "none"' src="https://lh3.googleusercontent.com/3LgRkvxoOGtz9D9rgZlC7QqlGsIHjp3xsY9IVc46BhTv3Jk8Qybev72w2b83w5K8xE4=w20" alt="Nova Launcher Prime"></td>      
+      <td>291,092</td>
+      <td>1 M</td>      
+      <td><font color="#239114">4.80</font></td>      
+      <td>0.6%</td>      
+      <td>1.0%</td>      
+      <td><small>$4.99</small></td>            
+    </tr>
+    
+      <tr class="odd">
+      <td>5.</td>      
+      <td style="text-align:left;">
+        
+        <a href="/application/poweramp_full_version_unlocker/com.maxmpz.audioplayer.unlock?hl=en">Poweramp Full Version Unlocker</a> 
+        
+      </td>
+      <td class="logo"><img width="20" height="20" onerror='this.style.display = "none"' src="http://lh5.ggpht.com/Y_zwLIrpypRSsqSjOaxFzPY-Pq5wMFoZX6BKXRKTovAvfLJwP52xNrDov33c0yNkYXAx=w20" alt="Poweramp Full Version Unlocker"></td>      
+      <td>233,716</td>
+      <td>1 M</td>      
+      <td><font color="#3a7c14">4.53</font></td>      
+      <td>0.4%</td>      
+      <td>0.8%</td>      
+      <td><small>$3.99</small></td>            
+    </tr>
+    
+      <tr class="even">
+      <td>6.</td>      
+      <td style="text-align:left;">
+        
+        <a href="/application/modern_combat_4_zero_hour/com.gameloft.android.ANMP.GloftM4HM?hl=en">Modern Combat 4: Zero Hour</a> 
+        
+      </td>
+      <td class="logo"><img width="20" height="20" onerror='this.style.display = "none"' src="https://lh3.ggpht.com/x84KGg5qbR0zGHq2WCfFoZ4G8lMW8a_SX-QrCiPAAHz991AXmjxNCBnzHUbzqI2ZSRg=w20" alt="Modern Combat 4: Zero Hour"></td>      
+      <td>230,746</td>
+      <td>1 M</td>      
+      <td><font color="#427414">4.44</font></td>      
+      <td>0.2%</td>      
+      <td>0.3%</td>      
+      <td><small>$6.99</small></td>            
+    </tr>
+    
+      <tr class="odd">
+      <td>7.</td>      
+      <td style="text-align:left;">
+        
+        <a href="/application/the_room/com.FireproofStudios.TheRoom?hl=en">The Room</a> 
+        
+      </td>
+      <td class="logo"><img width="20" height="20" onerror='this.style.display = "none"' src="https://lh3.googleusercontent.com/5nc0gBE_3fxx0nPKjTjF3O-l53tDiNaDGJjCGHqwXvb1Imsno1MDhcpYZYNEgC3vqs0=w20" alt="The Room"></td>      
+      <td>229,799</td>
+      <td>1 M</td>      
+      <td><font color="#258f14">4.77</font></td>      
+      <td>0.5%</td>      
+      <td>0.8%</td>      
+      <td><small>$0.99</small></td>            
+    </tr>
+    
+      <tr class="even">
+      <td>8.</td>      
+      <td style="text-align:left;">
+        
+        <a href="/application/terraria_/com.and.games505.TerrariaPaid?hl=en">Terraria.</a> 
+        
+      </td>
+      <td class="logo"><img width="20" height="20" onerror='this.style.display = "none"' src="https://lh3.googleusercontent.com/7hJDURSGN0c9wuN2OBbpWaSpmHu7SH2rr8FH3eyALc5tOosTttsHutO7v9xbFJJlZLE=w20" alt="Terraria."></td>      
+      <td>219,216</td>
+      <td>1 M</td>      
+      <td><font color="#536414">4.26</font></td>      
+      <td>0.8%</td>      
+      <td>1.4%</td>      
+      <td><small>$4.99</small></td>            
+    </tr>
+    
+      <tr class="odd">
+      <td>9.</td>      
+      <td style="text-align:left;">
+        
+        <a href="/application/runtastic_pro_running_fitness/com.runtastic.android.pro2?hl=en">Runtastic PRO Running, Fitness</a> 
+        
+      </td>
+      <td class="logo"><img width="20" height="20" onerror='this.style.display = "none"' src="https://lh3.googleusercontent.com/Kf-3tYPZ7tuaXdB8kGtdZ0ftCjg-c7BCNUJIm4jQg5DNm83vbhlilrqpPKPNXSePhg=w20" alt="Runtastic PRO Running, Fitness"></td>      
+      <td>211,997</td>
+      <td>1 M</td>      
+      <td><font color="#3d7814">4.49</font></td>      
+      <td>0.0%</td>      
+      <td>0.8%</td>      
+      <td><small>$4.99</small></td>            
+    </tr>
+    
+      <tr class="even">
+      <td>10.</td>      
+      <td style="text-align:left;">
+        
+        <a href="/application/need_for_speedtm_most_wanted/com.ea.games.nfs13_row?hl=en">Need for Speed™ Most Wanted</a> 
+        
+      </td>
+      <td class="logo"><img width="20" height="20" onerror='this.style.display = "none"' src="https://lh3.googleusercontent.com/LyOLqzFJtKHmTPiciOepfy2yatlJ7fJYITmNMO63Qd1qYWhwXvk-VioEp0jBHwTqrJA=w20" alt="Need for Speed™ Most Wanted"></td>      
+      <td>200,624</td>
+      <td>1 M</td>      
+      <td><font color="#695014">4.04</font></td>      
+      <td>0.0%</td>      
+      <td>0.5%</td>      
+      <td><small>$6.41</small></td>            
+    </tr>
+    
+      <tr class="odd">
+      <td>11.</td>      
+      <td style="text-align:left;">
+        
+        <a href="/application/monument_valley/com.ustwo.monumentvalley?hl=en">Monument Valley</a> 
+        
+      </td>
+      <td class="logo"><img width="20" height="20" onerror='this.style.display = "none"' src="https://lh3.googleusercontent.com/kkm-E17Pwoy08iOkQc5nFScTH_9ly7cArfgO02OLiTjWy3wpehqltrXWKOsuAfVnUjM=w20" alt="Monument Valley"></td>      
+      <td>199,739</td>
+      <td>1 M</td>      
+      <td><font color="#268e14">4.76</font></td>      
+      <td>1.4%</td>      
+      <td>14.3%</td>      
+      <td><small>$3.99</small></td>            
+    </tr>
+    
+      <tr class="even">
+      <td>12.</td>      
+      <td style="text-align:left;">
+        
+        <a href="/application/the_room_two/com.FireproofStudios.TheRoom2?hl=en">The Room Two</a> 
+        
+      </td>
+      <td class="logo"><img width="20" height="20" onerror='this.style.display = "none"' src="https://lh3.googleusercontent.com/M6wx3ClQcBt_b8rdBWRsCexBaLa650pRJslBV8TIyHpQUUlgpzxGQqACmCZdsy9klbc=w20" alt="The Room Two"></td>      
+      <td>194,239</td>
+      <td>500 k</td>      
+      <td><font color="#1d9614">4.87</font></td>      
+      <td>0.5%</td>      
+      <td>0.8%</td>      
+      <td><small>$1.99</small></td>            
+    </tr>
+    
+      <tr class="odd">
+      <td>13.</td>      
+      <td style="text-align:left;">
+        
+        <a href="/application/bloons_td_5/com.ninjakiwi.bloonstd5?hl=en">Bloons TD 5</a> 
+        
+      </td>
+      <td class="logo"><img width="20" height="20" onerror='this.style.display = "none"' src="https://lh3.googleusercontent.com/DOOuyTF54zyjz1Mn2UGPTk1z-MuwwdZHKdrdcLpEB_LiEK7B4pj7LHAwPxmYwxUtf1zm=w20" alt="Bloons TD 5"></td>      
+      <td>189,263</td>
+      <td>1 M</td>      
+      <td><font color="#367f14">4.57</font></td>      
+      <td>0.7%</td>      
+      <td>0.9%</td>      
+      <td><small>$2.99</small></td>            
+    </tr>
+    
+      <tr class="even">
+      <td>14.</td>      
+      <td style="text-align:left;">
+        
+        <a href="/application/where_s_my_water_/com.disney.WMW?hl=en">Where's My Water?</a> 
+        
+      </td>
+      <td class="logo"><img width="20" height="20" onerror='this.style.display = "none"' src="https://lh3.googleusercontent.com/dBuSTyWiVpBorN1wVqeGt6ux7Mva1XW-aczgcoFI-pi4HcbJu8nFDrBRwl5b4_AdMnKo=w20" alt="Where&#39;s My Water?"></td>      
+      <td>188,466</td>
+      <td>1 M</td>      
+      <td><font color="#2d8814">4.68</font></td>      
+      <td>0.1%</td>      
+      <td>0.2%</td>      
+      <td><small>$1.99</small></td>            
+    </tr>
+    
+      <tr class="odd">
+      <td>15.</td>      
+      <td style="text-align:left;">
+        
+        <a href="/application/reigns/com.devolver.reigns?hl=en">Reigns</a> 
+        
+      </td>
+      <td class="logo"><img width="20" height="20" onerror='this.style.display = "none"' src="https://lh3.googleusercontent.com/-KM1d0oJ05n0IC5D5qyP-KI-4OhUmuEw2fwSQUsqvFs0iFcmNPS-QZh7uxKww--_wg=w20" alt="Reigns"></td>      
+      <td>141,296</td>
+      <td>500 k</td>      
+      <td><font color="#288c14">4.74</font></td>      
+      <td>0.1%</td>      
+      <td>0.1%</td>      
+      <td><small>$2.99</small></td>            
+    </tr>
+    
+      <tr class="even">
+      <td>16.</td>      
+      <td style="text-align:left;">
+        
+        <a href="/application/card_wars_adventure_time/com.turner.cardwars?hl=en">Card Wars - Adventure Time</a> 
+        
+      </td>
+      <td class="logo"><img width="20" height="20" onerror='this.style.display = "none"' src="https://lh3.googleusercontent.com/NS8-RpNYzKz8SoLqxkV7tlYm3jzFDE4togDwwmT1VV9Hms6A-yRhnFFUgCAL97HwM1Sw=w20" alt="Card Wars - Adventure Time"></td>      
+      <td>129,392</td>
+      <td>1 M</td>      
+      <td><font color="#516614">4.28</font></td>      
+      <td>0.2%</td>      
+      <td>0.3%</td>      
+      <td><small>$2.99</small></td>            
+    </tr>
+    
+      <tr class="odd">
+      <td>17.</td>      
+      <td style="text-align:left;">
+        
+        <a href="/application/grand_theft_auto_vice_city/com.rockstargames.gtavc?hl=en">Grand Theft Auto: Vice City</a> 
+        
+      </td>
+      <td class="logo"><img width="20" height="20" onerror='this.style.display = "none"' src="https://lh3.googleusercontent.com/nl1Y6bn06faVBuPEwWh5gInl_Zji3A5wTA4zscKDsJLXpcZ5C35F5zaGzEwCE0bKJ8Jr=w20" alt="Grand Theft Auto: Vice City"></td>      
+      <td>124,213</td>
+      <td>1 M</td>      
+      <td><font color="#556314">4.24</font></td>      
+      <td>0.0%</td>      
+      <td>1.5%</td>      
+      <td><small>$4.99</small></td>            
+    </tr>
+    
+      <tr class="even">
+      <td>18.</td>      
+      <td style="text-align:left;">
+        
+        <a href="/application/true_skate/com.trueaxis.trueskate?hl=en">True Skate</a> 
+        
+      </td>
+      <td class="logo"><img width="20" height="20" onerror='this.style.display = "none"' src="https://lh4.ggpht.com/KRVjNAI6zRev9X3fTCM_iEHJYJekKcVQWcGttwkqS6pcIVf-nig1GZuWCVg5JSc8Y48=w20" alt="True Skate"></td>      
+      <td>122,555</td>
+      <td>1 M</td>      
+      <td><font color="#457114">4.40</font></td>      
+      <td>0.6%</td>      
+      <td>1.8%</td>      
+      <td><small>$1.99</small></td>            
+    </tr>
+    
+      <tr class="odd">
+      <td>19.</td>      
+      <td style="text-align:left;">
+        
+        <a href="/application/scribblenauts_remix/com.wb.goog.scribbleremix?hl=en">Scribblenauts Remix</a> 
+        
+      </td>
+      <td class="logo"><img width="20" height="20" onerror='this.style.display = "none"' src="https://lh3.ggpht.com/RSuDvl7RkVO2qvESKnfK1JkAf9XtadnazY_XxqBlDt2Uy60vkM19F_clzF1EkmIsiEUH=w20" alt="Scribblenauts Remix"></td>      
+      <td>104,892</td>
+      <td>1 M</td>      
+      <td><font color="#556314">4.24</font></td>      
+      <td>0.6%</td>      
+      <td>1.0%</td>      
+      <td><small>$0.99</small></td>            
+    </tr>
+    
+      <tr class="even">
+      <td>20.</td>      
+      <td style="text-align:left;">
+        
+        <a href="/application/kingdom_rush_frontiers/com.ironhidegames.android.kingdomrushfrontiers?hl=en">Kingdom Rush Frontiers</a> 
+        
+      </td>
+      <td class="logo"><img width="20" height="20" onerror='this.style.display = "none"' src="https://lh3.googleusercontent.com/lqbNkK3Tgw8npbbWNssKVjiI7ZH1-C-8im-NyixTepAGio_xtdnr9ldT8GxBTaDmhwp0=w20" alt="Kingdom Rush Frontiers"></td>      
+      <td>104,502</td>
+      <td>500 k</td>      
+      <td><font color="#298c14">4.73</font></td>      
+      <td>0.0%</td>      
+      <td>1.9%</td>      
+      <td><small>$0.99</small></td>            
+    </tr>
+    
+    </table>
+
+
+<div>
+    <small>
+    1 - 20 of 455
+    
+      |    
+      
+        &lt;&lt; First
+      
+    
+      |    
+      
+        &lt; Previous
+      
+    
+      |    
+      
+        <a href="listcategory?category=&amp;start=21&amp;sort=0&amp;price=paid&amp;hl=en">Next &gt;</a> 
+      
+    
+      |    
+      
+        <a href="listcategory?category=&amp;start=441&amp;sort=0&amp;price=paid&amp;hl=en">Last &gt;&gt;</a> 
+      
+    
+    </small>
+</div>
+
+<hr>
+
+
+ 
+     
+    
+  
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- androidrank7 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7014871535532916"
+     data-ad-slot="1852613440"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>        
+   
+  
+  </div>
+
+    
+  <nav class="col-md-2 sidebar col-md-pull-10" >  
+    
+    <small>stats</small><br>
+    <b><a href="/categorystats?category=&amp;price=all&amp;hl=en">Market stats</a><br></b>
+    <b><a href="/android_market_growth?hl=en">Market growth</a><br></b>
+    <br>
+
+    <small>API</small><br>
+    <b><a href="/api">androidrank.org API</a><br></b>
+    <br>    
+
+    <small>app ranklists</small><br>
+    <b><a href="/listcategory?hl=en">All Applications</a></b><br>
+    <b><a href="/listcategory?price=paid&amp;hl=en">Paid Apps</a></b><br>    
+    <b><a href="/listcategory?price=free&amp;hl=en">Free Apps</a></b><br>        
+
+    <br>    
+    <small>dev ranklists</small><br>
+    <b><a href="/listdeveloper?hl=en">Developers</a></b><br>
+    
+    
+    <br>
+
+    <small>applications</small><br>
+    
+      <b><a href="/listcategory?category=ART_AND_DESIGN&amp;hl=en">Art &amp; Design</a></b> <br>
+    
+      <b><a href="/listcategory?category=AUTO_AND_VEHICLES&amp;hl=en">Auto &amp; Vehicles</a></b> <br>
+    
+      <b><a href="/listcategory?category=BEAUTY&amp;hl=en">Beauty</a></b> <br>
+    
+      <b><a href="/listcategory?category=BOOKS_AND_REFERENCE&amp;hl=en">Books and Reference</a></b> <br>
+    
+      <b><a href="/listcategory?category=BUSINESS&amp;hl=en">Business</a></b> <br>
+    
+      <b><a href="/listcategory?category=COMICS&amp;hl=en">Comics</a></b> <br>
+    
+      <b><a href="/listcategory?category=COMMUNICATION&amp;hl=en">Communication</a></b> <br>
+    
+      <b><a href="/listcategory?category=DATING&amp;hl=en">Dating</a></b> <br>
+    
+      <b><a href="/listcategory?category=EDUCATION&amp;hl=en">Education</a></b> <br>
+    
+      <b><a href="/listcategory?category=ENTERTAINMENT&amp;hl=en">Entertainment</a></b> <br>
+    
+      <b><a href="/listcategory?category=EVENTS&amp;hl=en">Events</a></b> <br>
+    
+      <b><a href="/listcategory?category=FINANCE&amp;hl=en">Finance</a></b> <br>
+    
+      <b><a href="/listcategory?category=FOOD_AND_DRINK&amp;hl=en">Food &amp; Drink</a></b> <br>
+    
+      <b><a href="/listcategory?category=HEALTH_AND_FITNESS&amp;hl=en">Health and fitness</a></b> <br>
+    
+      <b><a href="/listcategory?category=HOUSE_AND_HOME&amp;hl=en">House &amp; Home</a></b> <br>
+    
+      <b><a href="/listcategory?category=LIBRARIES_AND_DEMO&amp;hl=en">Libraries and Demo</a></b> <br>
+    
+      <b><a href="/listcategory?category=LIFESTYLE&amp;hl=en">Lifestyle</a></b> <br>
+    
+      <b><a href="/listcategory?category=MAPS_AND_NAVIGATION&amp;hl=en">Maps &amp; Navigation</a></b> <br>
+    
+      <b><a href="/listcategory?category=MEDICAL&amp;hl=en">Medical</a></b> <br>
+    
+      <b><a href="/listcategory?category=MUSIC_AND_AUDIO&amp;hl=en">Music and Audio</a></b> <br>
+    
+      <b><a href="/listcategory?category=NEWS_AND_MAGAZINES&amp;hl=en">News and Magazines</a></b> <br>
+    
+      <b><a href="/listcategory?category=PARENTING&amp;hl=en">Parenting</a></b> <br>
+    
+      <b><a href="/listcategory?category=PERSONALIZATION&amp;hl=en">Personalization</a></b> <br>
+    
+      <b><a href="/listcategory?category=PHOTOGRAPHY&amp;hl=en">Photography</a></b> <br>
+    
+      <b><a href="/listcategory?category=PRODUCTIVITY&amp;hl=en">Productivity</a></b> <br>
+    
+      <b><a href="/listcategory?category=SHOPPING&amp;hl=en">Shopping</a></b> <br>
+    
+      <b><a href="/listcategory?category=SOCIAL&amp;hl=en">Social</a></b> <br>
+    
+      <b><a href="/listcategory?category=SPORTS&amp;hl=en">Sports</a></b> <br>
+    
+      <b><a href="/listcategory?category=TOOLS&amp;hl=en">Tools</a></b> <br>
+    
+      <b><a href="/listcategory?category=TRAVEL_AND_LOCAL&amp;hl=en">Travel and Local</a></b> <br>
+    
+      <b><a href="/listcategory?category=VIDEO_PLAYERS&amp;hl=en">Video Players</a></b> <br>
+    
+      <b><a href="/listcategory?category=WEATHER&amp;hl=en">Weather</a></b> <br>
+          
+
+    <br>
+    <small>games</small><br>
+    
+      <b><a href="/listcategory?category=GAME_ACTION&amp;hl=en">Action</a></b> <br>
+    
+      <b><a href="/listcategory?category=GAME_ADVENTURE&amp;hl=en">Adventure</a></b> <br>
+    
+      <b><a href="/listcategory?category=GAME_ARCADE&amp;hl=en">Arcade</a></b> <br>
+    
+      <b><a href="/listcategory?category=GAME_BOARD&amp;hl=en">Board</a></b> <br>
+    
+      <b><a href="/listcategory?category=GAME_CARD&amp;hl=en">Card</a></b> <br>
+    
+      <b><a href="/listcategory?category=GAME_CASINO&amp;hl=en">Casino</a></b> <br>
+    
+      <b><a href="/listcategory?category=GAME_CASUAL&amp;hl=en">Casual</a></b> <br>
+    
+      <b><a href="/listcategory?category=GAME_EDUCATIONAL&amp;hl=en">Educational</a></b> <br>
+    
+      <b><a href="/listcategory?category=GAME_MUSIC&amp;hl=en">Music</a></b> <br>
+    
+      <b><a href="/listcategory?category=GAME_PUZZLE&amp;hl=en">Puzzle</a></b> <br>
+    
+      <b><a href="/listcategory?category=GAME_RACING&amp;hl=en">Racing</a></b> <br>
+    
+      <b><a href="/listcategory?category=GAME_ROLE_PLAYING&amp;hl=en">Game Role Playing</a></b> <br>
+    
+      <b><a href="/listcategory?category=GAME_SIMULATION&amp;hl=en">Simulation</a></b> <br>
+    
+      <b><a href="/listcategory?category=GAME_SPORTS&amp;hl=en">Sports</a></b> <br>
+    
+      <b><a href="/listcategory?category=GAME_STRATEGY&amp;hl=en">Strategy</a></b> <br>
+    
+      <b><a href="/listcategory?category=GAME_TRIVIA&amp;hl=en">Trivia</a></b> <br>
+    
+      <b><a href="/listcategory?category=GAME_WORD&amp;hl=en">Word</a></b> <br>
+          
+
+    
+              
+    
+    
+      
+  </nav>
+      
+    
+</div> 
+
+<div id="footer" class="row">
+<div class="col-sm-12">
+<select id="langselector" onchange="window.location = this.options[this.selectedIndex].value;" >
+
+    <option   value="https://www.androidrank.org/listcategory?sort=0&category=&price=paid&hl=sk&start=1" >Slovenčina </option>
+
+    <option   value="https://www.androidrank.org/listcategory?sort=0&category=&price=paid&hl=fr&start=1" >Français </option>
+
+    <option selected  value="https://www.androidrank.org/listcategory?sort=0&category=&price=paid&hl=en&start=1" >English </option>
+    
+</select>   
+androidrank.org, Copyright 2011-2018. | <a href="/?hl=en">About us</a> | <a href="/contact?hl=en">Contact</a> | <a href="/?hl=en">Home</a>      
+<a style="display:none;" href="https://plus.google.com/108025305553532018993" rel="publisher">Find us on Google+</a>
+</div>
+</div>
+
+</div>
+
+
+
+</body>
+</html>

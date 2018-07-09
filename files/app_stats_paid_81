@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="google-site-verification" content="Qg6JHRBOMeFFRtNyuy2hHkDoFLidfGsZgl0JWBAPvv0">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="/css/all-libs.min.css?time=2">
+  <script defer type="text/javascript" src="/js/all-libs.min.js?time=2"></script>
+  <meta name="language" content="en"/>   
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript">   
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-28528455-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+  
+
+  <title>Android application ranklist  - All applications (paid) </title>
+  <meta name="Description" content="Androidrank statistics. Complete statistics and category lists of android applications. " >
+  <meta name="Keywords" content="android, rank, statistics, ranking, rating, list, graph, chart, memory, history" >
+
+
+</head>
+<body>
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/sk_SK/sdk.js#xfbml=1&version=v2.12&appId=351062118361627&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div id="body-content" class="container">
+
+<!--  <div id="header-content"> -->
+  <div id="header" class="row">
+    <div class="col-md-3">
+    <div class="row">
+     <div class="col-md-12">  
+        <a href="/">
+          <div style="text-align:center; float:left;">          
+            <div style="font-size: 22px;padding-top:14px; line-height:22px; font-weight:bold; text-transform: uppercase; font-family: times;">
+              <span style="color:#5f812a;">android</span><span style="color:#001144;">rank</span>
+            </div>
+           <div style="margin:0px; padding:0px; line-height:12px;">
+             <span style="font-size:12px; color:#001144; ">open android market data since 2011</span>
+           </div>      
+          </div>
+        </a>
+     </div>
+    </div>
+    </div>  
+   
+  <div class="col-md-7">
+  <div id="topadd">
+    
+  
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<ins class="adsbygoogle"
+     style="display:inline-block;width:468px;height:60px"
+     data-ad-client="ca-pub-7014871535532916"
+     data-ad-slot="4642830647"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>  
+          
+    
+  </div>
+  </div>
+
+  <div class="col-md-2" style="padding-top:5px;padding-bottom:5px;">
+  <div class="ui-widget" id="searchwidget" >
+	  <label for="appsearch"><b><small>search</small></b></label>
+    <input id="appsearch" style="width:100%">
+  </div>
+  </div>
+
+
+  
+    
+  
+  </div>
+
+<div id="main" class="row"> 
+  <div id="content" class="col-md-10 col-md-push-2">
+    
+  <div style="float:right;margin:5px;">    
+    <span class="menu"><a href="/categorystats?category=&amp;price=paid&amp;hl=en">Stats</a></span>
+  </div>
+  <div style="float:right;margin:5px;">
+    <span class="menu_selected"><a href="/listcategory?category=&amp;price=paid&amp;hl=en">Ranklist</a></span>
+  </div>      
+<h1 style="margin:0;">All applications (paid)</h1>
+  <p class="explaintext">
+     
+      Android rating stats of android apps. 
+      
+    The table below displays ratings count, downloads, rating growth and average ratings. The rating count and rating value may not directly influence a real app usage. Apps which achieved 5,000,000 installs or 10,000 ratings are listed below.
+  </p>
+
+    <small>
+    81 - 100 of 455
+    
+      |    
+      
+        <a href="listcategory?category=&amp;start=1&amp;sort=0&amp;price=paid&amp;hl=en">&lt;&lt; First</a> 
+      
+    
+      |    
+      
+        <a href="listcategory?category=&amp;start=61&amp;sort=0&amp;price=paid&amp;hl=en">&lt; Previous</a> 
+      
+    
+      |    
+      
+        <a href="listcategory?category=&amp;start=101&amp;sort=0&amp;price=paid&amp;hl=en">Next &gt;</a> 
+      
+    
+      |    
+      
+        <a href="listcategory?category=&amp;start=441&amp;sort=0&amp;price=paid&amp;hl=en">Last &gt;&gt;</a> 
+      
+    
+    </small>    
+    <table style="width:100%" id="ranklist" class="table">
+      <tr>
+      <th style="text-align:center;">rank</th>
+      <th style="text-align:center;">Title</th>
+      <th style="text-align:center;">Market icon</th>            
+      <th title="Total number of ratings"><a href="/listcategory?category=&amp;sort=0&amp;price=paid&amp;hl=en">&#8595;Total ratings</a></th>
+      <th title="Installs"><a href="/listcategory?category=&amp;sort=4&amp;price=paid">Installs</a></th>
+      <th title="Average rating"><a href="/listcategory?category=&amp;sort=1&amp;price=paid">Average rating</a></th>
+      <th title="Percentage of ratings achieved in last 30 days."><a href="/listcategory?category=&amp;sort=2&amp;price=paid&amp;hl=en">Growth (30 days)</a></th>
+      <th title="Percentage of ratings achieved in last 60 days."><a href="/listcategory?category=&amp;sort=3&amp;price=paid&amp;hl=en">Growth (60 days)</a></th>
+      <th >Price</th>
+    </tr>
+    
+      <tr class="odd">
+      <td>81.</td>      
+      <td style="text-align:left;">
+        
+        <a href="/application/facetune_ad_free/com.lightricks.facetune?hl=en">Facetune - Ad Free</a> 
+        
+      </td>
+      <td class="logo"><img width="20" height="20" onerror='this.style.display = "none"' src="https://lh6.ggpht.com/C0zU5DxF1XEryon1K21NYEXx9hTMnPmWNLy70ThTEUlbjdT2yZ5hxmt2im2_i0IP2DA=w20" alt="Facetune - Ad Free"></td>      
+      <td>49,397</td>
+      <td>1 M</td>      
+      <td><font color="#447314">4.42</font></td>      
+      <td>0.2%</td>      
+      <td>0.4%</td>      
+      <td><small>$5.99</small></td>            
+    </tr>
+    
+      <tr class="even">
+      <td>82.</td>      
+      <td style="text-align:left;">
+        
+        <a href="/application/day_r_premium/com.gm_shaber.dayrpremium?hl=en">Day R Premium</a> 
+        
+      </td>
+      <td class="logo"><img width="20" height="20" onerror='this.style.display = "none"' src="https://lh3.googleusercontent.com/kdALKdt7OOUWBS1QaMErayTLf2omP6BHgepWF5hu6s0oarUTImTn1oVbieKcljBNRhUB=w20" alt="Day R Premium"></td>      
+      <td>49,350</td>
+      <td>100 k</td>      
+      <td><font color="#268e14">4.76</font></td>      
+      <td>3.1%</td>      
+      <td>5.1%</td>      
+      <td><small>$4.99</small></td>            
+    </tr>
+    
+      <tr class="odd">
+      <td>83.</td>      
+      <td style="text-align:left;">
+        
+        <a href="/application/bridge_constructor/com.headupgames.bridgeconstructor?hl=en">Bridge Constructor</a> 
+        
+      </td>
+      <td class="logo"><img width="20" height="20" onerror='this.style.display = "none"' src="https://lh3.googleusercontent.com/cE5HeEsoYX_Fe-9Dn5fKj-VWrAbmoVVsjyJIsq_UcaXYdSk_pCJorXyOuaG3dLpmdNMk=w20" alt="Bridge Constructor"></td>      
+      <td>47,153</td>
+      <td>1 M</td>      
+      <td><font color="#467014">4.39</font></td>      
+      <td>0.1%</td>      
+      <td>0.2%</td>      
+      <td><small>$1.99</small></td>            
+    </tr>
+    
+      <tr class="even">
+      <td>84.</td>      
+      <td style="text-align:left;">
+        
+        <a href="/application/need_for_speed_most_wanted/com.ea.games.nfs13_na?hl=en">Need for Speed Most Wanted</a> 
+        
+      </td>
+      <td class="logo"><img width="20" height="20" onerror='this.style.display = "none"' src="https://lh3.googleusercontent.com/E0yjOHksPFKkjALyEth4SzpWE_ynsCj5o9w9kIP5zm7QBzbVjF4pUOifiU_q2ecWZplU=w20" alt="Need for Speed Most Wanted"></td>      
+      <td>44,214</td>
+      <td>1 M</td>      
+      <td><font color="#744514">3.94</font></td>      
+      <td>0.0%</td>      
+      <td>0.2%</td>      
+      <td><small>$4.99</small></td>            
+    </tr>
+    
+      <tr class="odd">
+      <td>85.</td>      
+      <td style="text-align:left;">
+        
+        <a href="/application/du_battery_saver_pro_widgets/com.dianxinos.dxbs.paid?hl=en">DU Battery Saver PRO & Widgets</a> 
+        
+      </td>
+      <td class="logo"><img width="20" height="20" onerror='this.style.display = "none"' src="https://lh6.ggpht.com/ohUK285ThH408ej1gnUxhkWWtN4_bnSy1miIjvvRIL3_TktynYlhzr6HdU0X19WrS4w=w20" alt="DU Battery Saver PRO &amp; Widgets"></td>      
+      <td>43,485</td>
+      <td>100 k</td>      
+      <td><font color="#358014">4.58</font></td>      
+      <td>0.1%</td>      
+      <td>0.1%</td>      
+      <td><small>$2.99</small></td>            
+    </tr>
+    
+      <tr class="even">
+      <td>86.</td>      
+      <td style="text-align:left;">
+        
+        <a href="/application/tasker/net.dinglisch.android.taskerm?hl=en">Tasker</a> 
+        
+      </td>
+      <td class="logo"><img width="20" height="20" onerror='this.style.display = "none"' src="https://lh3.googleusercontent.com/Z32CI1HB_7uGRIyKhKGd6rt9jLBzRxFasowSEzUt0kGJJeFUYeKChxti4x8USm4xAg=w20" alt="Tasker"></td>      
+      <td>42,932</td>
+      <td>1 M</td>      
+      <td><font color="#367f14">4.57</font></td>      
+      <td>0.4%</td>      
+      <td>0.5%</td>      
+      <td><small>$2.99</small></td>            
+    </tr>
+    
+      <tr class="odd">
+      <td>87.</td>      
+      <td style="text-align:left;">
+        
+        <a href="/application/limbo/com.playdead.limbo.full?hl=en">LIMBO</a> 
+        
+      </td>
+      <td class="logo"><img width="20" height="20" onerror='this.style.display = "none"' src="https://lh6.ggpht.com/FJ8e7NYhyjzrjuROUSpigJ1TQNnZKUDh6AZc1SFjiD665bZsxr_7zus0DzlHIrC6Lgk=w20" alt="LIMBO"></td>      
+      <td>42,336</td>
+      <td>500 k</td>      
+      <td><font color="#288c14">4.74</font></td>      
+      <td>0.4%</td>      
+      <td>0.6%</td>      
+      <td><small>$4.99</small></td>            
+    </tr>
+    
+      <tr class="even">
+      <td>88.</td>      
+      <td style="text-align:left;">
+        
+        <a href="/application/granny_smith/com.mediocre.grannysmith?hl=en">Granny Smith</a> 
+        
+      </td>
+      <td class="logo"><img width="20" height="20" onerror='this.style.display = "none"' src="https://lh5.ggpht.com/IbvuJThG_LEouRb2Exjf7iYfgT08fBQdiyY5lZRaNUX7jnGttBYtwqdIM9VuFvGM6J3F=w20" alt="Granny Smith"></td>      
+      <td>41,394</td>
+      <td>500 k</td>      
+      <td><font color="#2e8714">4.67</font></td>      
+      <td>0.2%</td>      
+      <td>0.4%</td>      
+      <td><small>$1.99</small></td>            
+    </tr>
+    
+      <tr class="odd">
+      <td>89.</td>      
+      <td style="text-align:left;">
+        
+        <a href="/application/akinator_vip/com.digidust.elokence.akinator.paid?hl=en">Akinator VIP</a> 
+        
+      </td>
+      <td class="logo"><img width="20" height="20" onerror='this.style.display = "none"' src="https://lh3.googleusercontent.com/umcAJGNnIo7EkUSV-c2BD6-9bmz3V4IH3ozYxDbnMg-lvN6IXrabqU81EYyNxOqz7Cg=w20" alt="Akinator VIP"></td>      
+      <td>39,783</td>
+      <td>1 M</td>      
+      <td><font color="#427414">4.44</font></td>      
+      <td>0.0%</td>      
+      <td>0.3%</td>      
+      <td><small>$1.99</small></td>            
+    </tr>
+    
+      <tr class="even">
+      <td>90.</td>      
+      <td style="text-align:left;">
+        
+        <a href="/application/iquran/com.guidedways.iQuranPro?hl=en">iQuran</a> 
+        
+      </td>
+      <td class="logo"><img width="20" height="20" onerror='this.style.display = "none"' src="http://lh3.ggpht.com/uMRkXJPDV9S9oJtLXP8elE6_j9YDsuyyzc6AZZEwOFoSojg3JXnETUUyT_5qsdpX7os=w20" alt="iQuran"></td>      
+      <td>39,631</td>
+      <td>100 k</td>      
+      <td><font color="#249014">4.79</font></td>      
+      <td>0.9%</td>      
+      <td>2.0%</td>      
+      <td><small>$1.99</small></td>            
+    </tr>
+    
+      <tr class="odd">
+      <td>91.</td>      
+      <td style="text-align:left;">
+        
+        <a href="/application/reddit_is_fun_golden_platinum_unofficial_/com.andrewshu.android.redditdonation?hl=en">reddit is fun golden platinum (unofficial)</a> 
+        
+      </td>
+      <td class="logo"><img width="20" height="20" onerror='this.style.display = "none"' src="https://lh3.googleusercontent.com/fV9eF9MQ3NY-jqoTfDDH3k5o5ki81KKCh_eliwNNlBm0HNcZJ8qJsM4FCTwUrMy5YQ=w20" alt="reddit is fun golden platinum (unofficial)"></td>      
+      <td>39,377</td>
+      <td>100 k</td>      
+      <td><font color="#229214">4.81</font></td>      
+      <td>0.0%</td>      
+      <td>0.9%</td>      
+      <td><small>$2.99</small></td>            
+    </tr>
+    
+      <tr class="even">
+      <td>92.</td>      
+      <td style="text-align:left;">
+        
+        <a href="/application/my_boy_gba_emulator/com.fastemulator.gba?hl=en">My Boy! - GBA Emulator</a> 
+        
+      </td>
+      <td class="logo"><img width="20" height="20" onerror='this.style.display = "none"' src="http://lh6.ggpht.com/7BAl299O4VckTmuDzghLoPN8lAMjNO1vFYAypOGtq0RcM6sS_EOr5jM4ScIB-o1uiw=w20" alt="My Boy! - GBA Emulator"></td>      
+      <td>38,876</td>
+      <td>1 M</td>      
+      <td><font color="#338214">4.61</font></td>      
+      <td>0.3%</td>      
+      <td>0.5%</td>      
+      <td><small>$4.99</small></td>            
+    </tr>
+    
+      <tr class="odd">
+      <td>93.</td>      
+      <td style="text-align:left;">
+        
+        <a href="/application/star_warstm_kotor/com.aspyr.swkotor?hl=en">Star Wars™: KOTOR</a> 
+        
+      </td>
+      <td class="logo"><img width="20" height="20" onerror='this.style.display = "none"' src="https://lh4.ggpht.com/3bQENAVjDlXZG6RWAq75ilzAx0MjhNptIAfW_Tzec0K5wTGY0ccTDp4QnNU6XaUshMI=w20" alt="Star Wars™: KOTOR"></td>      
+      <td>37,935</td>
+      <td>100 k</td>      
+      <td><font color="#3e7814">4.48</font></td>      
+      <td>0.6%</td>      
+      <td>1.0%</td>      
+      <td><small>$9.99</small></td>            
+    </tr>
+    
+      <tr class="even">
+      <td>94.</td>      
+      <td style="text-align:left;">
+        
+        <a href="/application/superretro16_snes_emulator_/com.bubblezapgames.supergnes?hl=en">SuperRetro16 ( SNES Emulator )</a> 
+        
+      </td>
+      <td class="logo"><img width="20" height="20" onerror='this.style.display = "none"' src="https://lh3.googleusercontent.com/lR3av3tbnI8XCJqEmvwRBW_PIacIVdbvpNB4pQCpBf843CQl36JnMH5wI0ZkSajedJA=w20" alt="SuperRetro16 ( SNES Emulator )"></td>      
+      <td>37,596</td>
+      <td>1 M</td>      
+      <td><font color="#4f6814">4.30</font></td>      
+      <td>0.2%</td>      
+      <td>0.4%</td>      
+      <td><small>$3.99</small></td>            
+    </tr>
+    
+      <tr class="odd">
+      <td>95.</td>      
+      <td style="text-align:left;">
+        
+        <a href="/application/soundhound_music_discovery_hands_free_player/com.melodis.midomiMusicIdentifier?hl=en">SoundHound ∞ - Music Discovery & Hands-Free Player</a> 
+        
+      </td>
+      <td class="logo"><img width="20" height="20" onerror='this.style.display = "none"' src="https://lh3.googleusercontent.com/GasRF5taBaf5fET2Z3xVjkVYlCIh-FufAum1MBaEnxjkKtNp6D8baKcMJID1-SYK9Qk=w20" alt="SoundHound ∞ - Music Discovery &amp; Hands-Free Player"></td>      
+      <td>37,557</td>
+      <td>500 k</td>      
+      <td><font color="#407614">4.46</font></td>      
+      <td>0.1%</td>      
+      <td>0.1%</td>      
+      <td><small>$5.99</small></td>            
+    </tr>
+    
+      <tr class="even">
+      <td>96.</td>      
+      <td style="text-align:left;">
+        
+        <a href="/application/shazam_encore/com.shazam.encore.android?hl=en">Shazam Encore</a> 
+        
+      </td>
+      <td class="logo"><img width="20" height="20" onerror='this.style.display = "none"' src="https://lh3.googleusercontent.com/or1134wYt5K2119mGRBDnslIoca9pIeGASGiksqUvx4oaC8lNgSUC9aOl78Y-FP2LRM=w20" alt="Shazam Encore"></td>      
+      <td>37,382</td>
+      <td>500 k</td>      
+      <td><font color="#496d14">4.36</font></td>      
+      <td>0.0%</td>      
+      <td>0.4%</td>      
+      <td><small>$2.99</small></td>            
+    </tr>
+    
+      <tr class="odd">
+      <td>97.</td>      
+      <td style="text-align:left;">
+        
+        <a href="/application/ruzzle/se.maginteractive.rumble?hl=en">Ruzzle</a> 
+        
+      </td>
+      <td class="logo"><img width="20" height="20" onerror='this.style.display = "none"' src="https://lh3.googleusercontent.com/N5dOkIE3aVlaGDpIiq6heXDddZcV6SS7aSSx3cqwQplLXP1DRKr1McMvcdihL92WwA=w20" alt="Ruzzle"></td>      
+      <td>37,102</td>
+      <td>500 k</td>      
+      <td><font color="#486e14">4.37</font></td>      
+      <td>0.1%</td>      
+      <td>0.2%</td>      
+      <td><small>$1.99</small></td>            
+    </tr>
+    
+      <tr class="even">
+      <td>98.</td>      
+      <td style="text-align:left;">
+        
+        <a href="/application/riptide_gp2/com.vectorunit.red?hl=en">Riptide GP2</a> 
+        
+      </td>
+      <td class="logo"><img width="20" height="20" onerror='this.style.display = "none"' src="https://lh3.googleusercontent.com/EKLZAk3ZrgVImFAMFCFZa7DSe2cnNSkzslJm0IanuB-a_PyEwxiNAOkI2UywuB_BfzI=w20" alt="Riptide GP2"></td>      
+      <td>37,082</td>
+      <td>500 k</td>      
+      <td><font color="#377e14">4.56</font></td>      
+      <td>0.1%</td>      
+      <td>0.2%</td>      
+      <td><small>$1.99</small></td>            
+    </tr>
+    
+      <tr class="odd">
+      <td>99.</td>      
+      <td style="text-align:left;">
+        
+        <a href="/application/word_streak_words_with_friends/com.zynga.scramble.paid?hl=en">Word Streak:Words With Friends</a> 
+        
+      </td>
+      <td class="logo"><img width="20" height="20" onerror='this.style.display = "none"' src="https://lh3.googleusercontent.com/eam7019nAI6S_qSlgBMp3EvemsIaHWb0TDFHvrWijMcJLWXe1_4hNA19a67__D8HVg=w20" alt="Word Streak:Words With Friends"></td>      
+      <td>37,071</td>
+      <td>100 k</td>      
+      <td><font color="#3f7714">4.47</font></td>      
+      <td>0.0%</td>      
+      <td>0.0%</td>      
+      <td><small>$5.99</small></td>            
+    </tr>
+    
+      <tr class="even">
+      <td>100.</td>      
+      <td style="text-align:left;">
+        
+        <a href="/application/castle_of_illusion/com.disney.castleofillusion_goo?hl=en">Castle of Illusion</a> 
+        
+      </td>
+      <td class="logo"><img width="20" height="20" onerror='this.style.display = "none"' src="https://lh3.googleusercontent.com/35d8WAtrOoRRNhB_o0ost9N_pYuSp9t3vEQ_hbuzra1a38d-yjI04Lh_KpoXi6GU2Y8=w20" alt="Castle of Illusion"></td>      
+      <td>35,898</td>
+      <td>500 k</td>      
+      <td><font color="#5b5d14">4.18</font></td>      
+      <td>0.3%</td>      
+      <td>0.5%</td>      
+      <td><small>$4.99</small></td>            
+    </tr>
+    
+    </table>
+
+
+<div>
+    <small>
+    81 - 100 of 455
+    
+      |    
+      
+        <a href="listcategory?category=&amp;start=1&amp;sort=0&amp;price=paid&amp;hl=en">&lt;&lt; First</a> 
+      
+    
+      |    
+      
+        <a href="listcategory?category=&amp;start=61&amp;sort=0&amp;price=paid&amp;hl=en">&lt; Previous</a> 
+      
+    
+      |    
+      
+        <a href="listcategory?category=&amp;start=101&amp;sort=0&amp;price=paid&amp;hl=en">Next &gt;</a> 
+      
+    
+      |    
+      
+        <a href="listcategory?category=&amp;start=441&amp;sort=0&amp;price=paid&amp;hl=en">Last &gt;&gt;</a> 
+      
+    
+    </small>
+</div>
+
+<hr>
+
+
+ 
+     
+    
+  
+    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- androidrank7 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-7014871535532916"
+     data-ad-slot="1852613440"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>        
+   
+  
+  </div>
+
+    
+  <nav class="col-md-2 sidebar col-md-pull-10" >  
+    
+    <small>stats</small><br>
+    <b><a href="/categorystats?category=&amp;price=all&amp;hl=en">Market stats</a><br></b>
+    <b><a href="/android_market_growth?hl=en">Market growth</a><br></b>
+    <br>
+
+    <small>API</small><br>
+    <b><a href="/api">androidrank.org API</a><br></b>
+    <br>    
+
+    <small>app ranklists</small><br>
+    <b><a href="/listcategory?hl=en">All Applications</a></b><br>
+    <b><a href="/listcategory?price=paid&amp;hl=en">Paid Apps</a></b><br>    
+    <b><a href="/listcategory?price=free&amp;hl=en">Free Apps</a></b><br>        
+
+    <br>    
+    <small>dev ranklists</small><br>
+    <b><a href="/listdeveloper?hl=en">Developers</a></b><br>
+    
+    
+    <br>
+
+    <small>applications</small><br>
+    
+      <b><a href="/listcategory?category=ART_AND_DESIGN&amp;hl=en">Art &amp; Design</a></b> <br>
+    
+      <b><a href="/listcategory?category=AUTO_AND_VEHICLES&amp;hl=en">Auto &amp; Vehicles</a></b> <br>
+    
+      <b><a href="/listcategory?category=BEAUTY&amp;hl=en">Beauty</a></b> <br>
+    
+      <b><a href="/listcategory?category=BOOKS_AND_REFERENCE&amp;hl=en">Books and Reference</a></b> <br>
+    
+      <b><a href="/listcategory?category=BUSINESS&amp;hl=en">Business</a></b> <br>
+    
+      <b><a href="/listcategory?category=COMICS&amp;hl=en">Comics</a></b> <br>
+    
+      <b><a href="/listcategory?category=COMMUNICATION&amp;hl=en">Communication</a></b> <br>
+    
+      <b><a href="/listcategory?category=DATING&amp;hl=en">Dating</a></b> <br>
+    
+      <b><a href="/listcategory?category=EDUCATION&amp;hl=en">Education</a></b> <br>
+    
+      <b><a href="/listcategory?category=ENTERTAINMENT&amp;hl=en">Entertainment</a></b> <br>
+    
+      <b><a href="/listcategory?category=EVENTS&amp;hl=en">Events</a></b> <br>
+    
+      <b><a href="/listcategory?category=FINANCE&amp;hl=en">Finance</a></b> <br>
+    
+      <b><a href="/listcategory?category=FOOD_AND_DRINK&amp;hl=en">Food &amp; Drink</a></b> <br>
+    
+      <b><a href="/listcategory?category=HEALTH_AND_FITNESS&amp;hl=en">Health and fitness</a></b> <br>
+    
+      <b><a href="/listcategory?category=HOUSE_AND_HOME&amp;hl=en">House &amp; Home</a></b> <br>
+    
+      <b><a href="/listcategory?category=LIBRARIES_AND_DEMO&amp;hl=en">Libraries and Demo</a></b> <br>
+    
+      <b><a href="/listcategory?category=LIFESTYLE&amp;hl=en">Lifestyle</a></b> <br>
+    
+      <b><a href="/listcategory?category=MAPS_AND_NAVIGATION&amp;hl=en">Maps &amp; Navigation</a></b> <br>
+    
+      <b><a href="/listcategory?category=MEDICAL&amp;hl=en">Medical</a></b> <br>
+    
+      <b><a href="/listcategory?category=MUSIC_AND_AUDIO&amp;hl=en">Music and Audio</a></b> <br>
+    
+      <b><a href="/listcategory?category=NEWS_AND_MAGAZINES&amp;hl=en">News and Magazines</a></b> <br>
+    
+      <b><a href="/listcategory?category=PARENTING&amp;hl=en">Parenting</a></b> <br>
+    
+      <b><a href="/listcategory?category=PERSONALIZATION&amp;hl=en">Personalization</a></b> <br>
+    
+      <b><a href="/listcategory?category=PHOTOGRAPHY&amp;hl=en">Photography</a></b> <br>
+    
+      <b><a href="/listcategory?category=PRODUCTIVITY&amp;hl=en">Productivity</a></b> <br>
+    
+      <b><a href="/listcategory?category=SHOPPING&amp;hl=en">Shopping</a></b> <br>
+    
+      <b><a href="/listcategory?category=SOCIAL&amp;hl=en">Social</a></b> <br>
+    
+      <b><a href="/listcategory?category=SPORTS&amp;hl=en">Sports</a></b> <br>
+    
+      <b><a href="/listcategory?category=TOOLS&amp;hl=en">Tools</a></b> <br>
+    
+      <b><a href="/listcategory?category=TRAVEL_AND_LOCAL&amp;hl=en">Travel and Local</a></b> <br>
+    
+      <b><a href="/listcategory?category=VIDEO_PLAYERS&amp;hl=en">Video Players</a></b> <br>
+    
+      <b><a href="/listcategory?category=WEATHER&amp;hl=en">Weather</a></b> <br>
+          
+
+    <br>
+    <small>games</small><br>
+    
+      <b><a href="/listcategory?category=GAME_ACTION&amp;hl=en">Action</a></b> <br>
+    
+      <b><a href="/listcategory?category=GAME_ADVENTURE&amp;hl=en">Adventure</a></b> <br>
+    
+      <b><a href="/listcategory?category=GAME_ARCADE&amp;hl=en">Arcade</a></b> <br>
+    
+      <b><a href="/listcategory?category=GAME_BOARD&amp;hl=en">Board</a></b> <br>
+    
+      <b><a href="/listcategory?category=GAME_CARD&amp;hl=en">Card</a></b> <br>
+    
+      <b><a href="/listcategory?category=GAME_CASINO&amp;hl=en">Casino</a></b> <br>
+    
+      <b><a href="/listcategory?category=GAME_CASUAL&amp;hl=en">Casual</a></b> <br>
+    
+      <b><a href="/listcategory?category=GAME_EDUCATIONAL&amp;hl=en">Educational</a></b> <br>
+    
+      <b><a href="/listcategory?category=GAME_MUSIC&amp;hl=en">Music</a></b> <br>
+    
+      <b><a href="/listcategory?category=GAME_PUZZLE&amp;hl=en">Puzzle</a></b> <br>
+    
+      <b><a href="/listcategory?category=GAME_RACING&amp;hl=en">Racing</a></b> <br>
+    
+      <b><a href="/listcategory?category=GAME_ROLE_PLAYING&amp;hl=en">Game Role Playing</a></b> <br>
+    
+      <b><a href="/listcategory?category=GAME_SIMULATION&amp;hl=en">Simulation</a></b> <br>
+    
+      <b><a href="/listcategory?category=GAME_SPORTS&amp;hl=en">Sports</a></b> <br>
+    
+      <b><a href="/listcategory?category=GAME_STRATEGY&amp;hl=en">Strategy</a></b> <br>
+    
+      <b><a href="/listcategory?category=GAME_TRIVIA&amp;hl=en">Trivia</a></b> <br>
+    
+      <b><a href="/listcategory?category=GAME_WORD&amp;hl=en">Word</a></b> <br>
+          
+
+    
+              
+    
+    
+      
+  </nav>
+      
+    
+</div> 
+
+<div id="footer" class="row">
+<div class="col-sm-12">
+<select id="langselector" onchange="window.location = this.options[this.selectedIndex].value;" >
+
+    <option   value="https://www.androidrank.org/listcategory?sort=0&category=&price=paid&hl=sk&start=81" >Slovenčina </option>
+
+    <option   value="https://www.androidrank.org/listcategory?sort=0&category=&price=paid&hl=fr&start=81" >Français </option>
+
+    <option selected  value="https://www.androidrank.org/listcategory?sort=0&category=&price=paid&hl=en&start=81" >English </option>
+    
+</select>   
+androidrank.org, Copyright 2011-2018. | <a href="/?hl=en">About us</a> | <a href="/contact?hl=en">Contact</a> | <a href="/?hl=en">Home</a>      
+<a style="display:none;" href="https://plus.google.com/108025305553532018993" rel="publisher">Find us on Google+</a>
+</div>
+</div>
+
+</div>
+
+
+
+</body>
+</html>
