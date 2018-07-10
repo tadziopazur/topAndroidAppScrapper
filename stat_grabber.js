@@ -2,7 +2,20 @@ var https = require('https'),
     jsdom = require('jsdom').JSDOM,
     fs = require('fs');
 
-function scrapper(url, pageData) {
+function storeRecord(writeStream, record) {
+
+  console.log('> ', record.no, record.name,
+              record.link, record.ratingCount,
+              record.installRange, record.rating,
+              record.price);
+  var recordString = "" + record.no + "," + record.name + "," +
+                    record.link + "," + record.ratingCount + "," +
+                    record.installRange + "," + record.rating + "," +
+                    record.price + "\n";
+  writeStream.write(recordString, 'utf8');
+}
+
+function scrapper(dataSink, url, pageData) {
   //console.log('Data is ', pageData);
   var document = (new jsdom(pageData)).window.document;
   //console.log('Document is ', document);
@@ -26,22 +39,18 @@ function scrapper(url, pageData) {
         installNode = childNodes[9],
         ratingNode = childNodes[11].childNodes[0],
         priceNode = childNodes[17].childNodes[0];
-      var no = parseInt(noNode.innerHTML),
-          name = linkNode.innerHTML,
-          link = linkNode.href,
-          ratingCount = parseInt(ratingCountNode.innerHTML.replace(/,/g, "")),
-          installRange = installNode.innerHTML,
-          rating = ratingNode.innerHTML,
-          price = priceNode.innerHTML;
-//      console.log('Name node is of type ', typeof(ratingNode), ' -> ', ratingNode, ', children ', ratingNode.childNodes);
+      var record = {
+        url: url,
+        no: parseInt(noNode.innerHTML),
+        name: linkNode.innerHTML,
+        link: linkNode.href,
+        ratingCount: parseInt(ratingCountNode.innerHTML.replace(/,/g, "")),
+        installRange: installNode.innerHTML,
+        rating: ratingNode.innerHTML,
+        price: priceNode.innerHTML
+      };
 
-      console.log('> ', no, name, link, ratingCount, installRange, rating, price);
-      if (false) console.log('> ', noNode.innerHTML, '|', 
-                        linkNode.innerHTML, '->', linkNode.href, '|', 
-                        ratingCountNode.innerHTML, '|', 
-                        installNode.innerHTML, '|',
-                        ratingNode.innerHTML, '|',
-                        priceNode.innerHTML);
+      dataSink(record);
     }
   });
 }
@@ -67,7 +76,7 @@ function responseHandler(pageDataHandler, response) {
 }
 
 // Pushes the contents of the desired page into the callback
-function getPage(price, start, live, callback) {
+function getPage(price, start, live, callback, finisher) {
   if (live) {
     var startPage = "https://www.androidrank.org/listcategory?category=&sort=0&hl=en";
     var requestOptions = {
@@ -98,11 +107,18 @@ function getPage(price, start, live, callback) {
         callback(null, data);
       });
   }
+  console.log("Calling a finisher");
+  //finisher();
 }
 
 var path = '/listcategory?category=&sort=0&hl=en';
 var price= "free";
 for (start = 1; start < 20; start += 20) {
-  getPage(price, start, false, scrapper);
-}
+  if (!fs.existsSync("output")) fs.mkdirSync("output", 0666);
+  var writeStream = fs.createWriteStream("output/top_apps.csv"),
+      boundWriteStreamCloser = writeStream.close.bind(null, writeStream),
+      boundStoreRecorder = storeRecord.bind(null, writeStream),
+      boundScrapper = scrapper.bind(null, boundStoreRecorder);
 
+  getPage(price, start, false, boundScrapper, boundWriteStreamCloser);
+}
