@@ -3,19 +3,75 @@ var https = require('https'),
     jsdom = require('jsdom').JSDOM,
     fs = require('fs');
 
+function computeAppType(category, publisher, app) {
+  var identityMap = [
+    "Books and Reference",
+    "Communication",
+    "Education",
+    "Entertainment",
+    "Health and fitness",
+    "Lifestyle",
+    "Maps & Navigation",
+    "Music and Audio",
+    "News and Magazines",
+    "Personalization",
+    "Photography",
+    "Productivity",
+    "Shopping",
+    "Social",
+    "Tools",
+    "Travel and Local"
+  ];
+  var mapping = {
+    "Action"    : "Games",
+    "Adventure" : "Games",
+    "Arcade"    : "Games",
+    "Casual"    : "Games",
+    "Game Role Playing"
+                : "Games",
+    "Puzzle"    : "Games",
+    "Racing"    : "Games",
+    "Simulation": "Games",
+    "Sports"    : "Games",
+    "Strategy"  : "Games",
+    "Trivia"    : "Entertainment",
+    "Video Players"
+                : "Multimediamedia"
+  };
+  if (identityMap.includes(category)) return null;
+  if (mapping.hasOwnProperty(category) && typeof(mapping[category]) === 'string') {
+    return mapping[category];
+  }
+  return "Unknown";
+}
+
 function storeRecord(writeStream, record) {
   record.name = record.name.replace(/,/g, " &");
+  record.name = record.name.replace(/&amp;/g, "&");
+  record.developer = record.developer.replace(/,/g, "");
+  record.developer = record.developer.replace(/&amp;/g, "&");
+  record.category = record.category.replace(/&amp;/g, "&");
+  var baseCat = computeAppType(record.category, record.developer, record.name);
+  if (baseCat) {
+    record.baseCategory = baseCat;
+  } else {
+    record.baseCategory = record.category;
+    record.category = "";
+  }
 
   console.log('> ', record.no, record.name,
-              record.developer, record.category,
+              record.developer,
+              record.baseCategory, record.category,
               record.ratingCount,
               record.installRange, record.rating,
               record.price, record.link);
   var recordString = "" + record.no + "," + record.name + "," +
-                    record.developer + "," + record.category + "," +
+                    record.developer + "," +
+                    record.baseCategory + "," + record.category + "," +
                     record.ratingCount + "," +
                     record.installRange + "," + record.rating + "," +
                     record.price + "," + record.link + "\n";
+  recordString = recordString.replace(/&amp;/g, "&");
   writeStream.write(recordString, 'utf8');
 }
 
@@ -119,7 +175,7 @@ function summaryPageScrapper(url, pageData) {
       rating: ratingNode.innerHTML,
       price: priceNode.innerHTML
     };
-    var interval = Math.floor(1 + Math.random() * MAX_DURATION);
+    var interval = Math.floor(1 + Math.random() * (BATCH_DURATION - 2));
     console.log('Scheduling page scrapper to run for #', record.no, ",", record.name, 'in', interval, 'seconds');
     setTimeout(scrapAppPage, 1000 * interval, record);
   });
@@ -176,15 +232,21 @@ function getPage(price, start, live) {
 }
 
 // The duration of a single summary page (it contains 20 links) processing, in seconds
-var MAX_DURATION = 50;
+var BATCH_DURATION = 120;
 var path = '/listcategory?category=&sort=0&hl=en';
 
 if (!fs.existsSync("output")) fs.mkdirSync("output", 0666);
 var writeStream = fs.createWriteStream("output/top_apps.csv");
-//['free', 'paid'].
-['all'].forEach((price, index) => {
-  for (start = 1; start < 500; start += 20) {
-    setTimeout(getPage, 1000 * start * 3, price, start, true);
+var searchSets = { 'free': 400, 'paid': 200 };
+
+var lastEnd = 0;
+Object.keys(searchSets).forEach((price, index) => {
+  var limit = searchSets[price];
+  for (start = 1; start < limit; start += 20) {
+    var timeout = Math.floor(1000 * lastEnd);
+    lastEnd += BATCH_DURATION;
+    console.log("Crawling ", price, start, timeout);
+    setTimeout(getPage, timeout, price, start, true);
   }
 });
 
