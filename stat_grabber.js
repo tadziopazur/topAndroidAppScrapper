@@ -8,9 +8,9 @@ function storeRecord(writeStream, record) {
 
   console.log('> ', record.no, record.name,
               record.developer, record.category,
-              record.link, record.ratingCount,
+              record.ratingCount,
               record.installRange, record.rating,
-              record.price);
+              record.price, record.link);
   var recordString = "" + record.no + "," + record.name + "," +
                     record.developer + "," + record.category + "," +
                     record.ratingCount + "," +
@@ -55,7 +55,7 @@ function readAppPage(callback, pageData) {
     });
 }
 
-var count = 0;
+var count = 200;
 function scrapAppPage(record) {
   var options = {
     protocol: 'https:',
@@ -66,10 +66,9 @@ function scrapAppPage(record) {
   };
   var pageData = "";
 
-  if (count > 10) return;
-  count++;
-
+  if (count-- <= 0) return;  
   try {
+
     console.log("Requesting " + options.protocol + '//' + options.hostname + options.path);
     var request = https.request(options, (response) => {
       console.log("Response: ", response.statusCode);
@@ -96,13 +95,12 @@ function scrapAppPage(record) {
   request.end();
 }
 
-var summaryCount = 0;
 function summaryPageScrapper(url, pageData) {
   var document = (new jsdom(pageData)).window.document,
       ranklist = document.getElementById('ranklist'),
       elementList = ranklist.querySelectorAll('tr.odd, tr.even');
 
-  console.log('Grabbing @url', url, ',', elementList.length, "elements");
+  //console.log('Grabbing @url', url, ',', elementList.length, "elements");
 
   elementList.forEach((item, index) => {
     var childNodes = item.childNodes,
@@ -124,14 +122,15 @@ function summaryPageScrapper(url, pageData) {
       rating: ratingNode.innerHTML,
       price: priceNode.innerHTML
     };
-    if (summaryCount < 5) scrapAppPage(record);
-    summaryCount++;
+    var interval = Math.floor(1 + Math.random() * MAX_DURATION);
+    console.log('Scheduling page scrapper to run for #', record.no, ",", record.name, 'in', interval, 'seconds');
+    setTimeout(scrapAppPage, 1000 * interval, record);
   });
 }
 
 function responseHandler(url, response) {
   console.log("Response: ", response.statusCode);
-  console.log("Resp headers: ", response.headers);
+  //console.log("Resp headers: ", response.headers);
 
   var pageData = "";
   try {
@@ -139,12 +138,11 @@ function responseHandler(url, response) {
     response.on('error', (error) => { console.log('Rquest error: ', error); });
     response.on('data', (data) => {
       pageData += data;
-      console.log(data.length, " bytes of data\n");
+      //console.log(data.length, " bytes of data\n");
     });
   } catch (e) {
     console.log("Response error: " + e.message);
   }
-  request.end();
 }
 
 function getPage(price, start, live) {
@@ -180,13 +178,15 @@ function getPage(price, start, live) {
   }
 }
 
+var MAX_DURATION = 120;
 var path = '/listcategory?category=&sort=0&hl=en';
 
 if (!fs.existsSync("output")) fs.mkdirSync("output", 0666);
 var writeStream = fs.createWriteStream("output/top_apps.csv");
-['free', 'paid'].forEach((price, index) => {
-  for (start = 1; start < 20; start += 20) {
-    getPage(price, start, false);
+//['free', 'paid'].
+['all'].forEach((price, index) => {
+  for (start = 1; start < 500; start += 20) {
+    setTimeout(getPage, 1000 * start * 7, price, start, true);
   }
 });
 
