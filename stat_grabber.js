@@ -55,7 +55,6 @@ function readAppPage(callback, pageData) {
     });
 }
 
-var count = 200;
 function scrapAppPage(record) {
   var options = {
     protocol: 'https:',
@@ -66,9 +65,7 @@ function scrapAppPage(record) {
   };
   var pageData = "";
 
-  if (count-- <= 0) return;  
   try {
-
     console.log("Requesting " + options.protocol + '//' + options.hostname + options.path);
     var request = https.request(options, (response) => {
       console.log("Response: ", response.statusCode);
@@ -178,7 +175,8 @@ function getPage(price, start, live) {
   }
 }
 
-var MAX_DURATION = 120;
+// The duration of a single summary page (it contains 20 links) processing, in seconds
+var MAX_DURATION = 50;
 var path = '/listcategory?category=&sort=0&hl=en';
 
 if (!fs.existsSync("output")) fs.mkdirSync("output", 0666);
@@ -186,7 +184,7 @@ var writeStream = fs.createWriteStream("output/top_apps.csv");
 //['free', 'paid'].
 ['all'].forEach((price, index) => {
   for (start = 1; start < 500; start += 20) {
-    setTimeout(getPage, 1000 * start * 7, price, start, true);
+    setTimeout(getPage, 1000 * start * 3, price, start, true);
   }
 });
 
