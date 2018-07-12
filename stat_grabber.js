@@ -5,27 +5,35 @@ var https = require('https'),
 
 function computeAppType(category, publisher, app) {
   var identityMap = [
+    "Auto & Vehicles",
     "Books and Reference",
     "Communication",
     "Education",
     "Entertainment",
+    "Finance",
     "Health and fitness",
     "Lifestyle",
     "Maps & Navigation",
     "Music and Audio",
     "News and Magazines",
+    "Parenting",
     "Personalization",
     "Photography",
     "Productivity",
     "Shopping",
     "Social",
     "Tools",
-    "Travel and Local"
+    "Travel and Local",
+    "Weather"
   ];
   var mapping = {
     "Action"    : "Games",
     "Adventure" : "Games",
     "Arcade"    : "Games",
+    "Board"     : "Games",
+    "Business"  : "Tools",
+    "Card"      : "Games",
+    "Casino"    : "Games",
     "Casual"    : "Games",
     "Game Role Playing"
                 : "Games",
@@ -36,7 +44,8 @@ function computeAppType(category, publisher, app) {
     "Strategy"  : "Games",
     "Trivia"    : "Entertainment",
     "Video Players"
-                : "Multimediamedia"
+                : "Multimediamedia",
+    "Word"      : "Games"
   };
   if (identityMap.includes(category)) return null;
   if (mapping.hasOwnProperty(category) && typeof(mapping[category]) === 'string') {
